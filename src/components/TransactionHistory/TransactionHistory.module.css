@@ -1,0 +1,28 @@
+.table {
+    margin: auto;
+    margin-top: 40px;
+    width: 500px;
+    border: 2px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(24, 23, 23);
+    border-collapse: collapse;
+}
+
+.thead {
+    color: rgb(231, 221, 221);
+    background-color: rgb(50, 45, 45);
+}
+
+.head {
+    border: 2px solid black;
+}
+
+.tableData {
+    border: 2px solid black;
+}
+
+.tableBody tr:nth-child(even) {
+    background-color: rgb(192, 184, 202);
+}

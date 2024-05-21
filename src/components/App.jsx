@@ -6,6 +6,8 @@ import userData from "../data/userData.json"
 import FriendList from './FriendList/FriendList.jsx'
 import friends from '../data/friends.json'
 
+import TransactionHistory from './TransactionHistory/TransactionHistory.jsx'
+import transactions from '../data/transactions.json'
 
 function App() {
 
@@ -20,6 +22,8 @@ function App() {
       />
 
       <FriendList friends={friends} />
+
+       <TransactionHistory items={transactions} />
     </>
   )
 }
