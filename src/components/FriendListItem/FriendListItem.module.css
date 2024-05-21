@@ -1,0 +1,31 @@
+.frnAvatar {
+    margin-bottom: 10px;
+    width: 60px;
+}
+
+
+
+.frnName {
+    margin: 0 0 15px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: rgb(24, 23, 23);
+}
+
+
+.online {
+    color: rgb(25, 171, 42);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.offline {
+    color: rgb(205, 31, 66);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+}
